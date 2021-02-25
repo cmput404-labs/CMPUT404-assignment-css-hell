@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+    color: white;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+    object-fit:cover; 
+}
+
+.im{
+    font-size: 250%;
+}
+
+.whole_screen {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    min-height: 100%;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    /* grid-auto-rows: 50%; */
+}
+
+.sidebar{
+    background-color: #1F212C;
+    padding: 7%;
+}
+
+.big_num{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.bn{
+    color: #E9B258;
+    font-size: 150%;
+    text-align: center;
+}
+
+.sc{
+    font-size: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.upper_half{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #333646;    
+    text-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+.left{
+    
+    padding-left: 25%;
+    padding-top: 25%;
+
+    background-image: url("tony.png");
+    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.small{
+    font-size: 80%;
+    margin-top: 0;
+}
+
+.right{
+    padding: 10%;
+}
+
+.grey_p{
+    font-size: 70%;
+    color: #93949D;
+}
+
+.lower_half{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #282A39;
+}
+
+.sticker{
+    background-color: #F87C58;
+    margin: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 5px 5px 8px 10px #252734;
+}
